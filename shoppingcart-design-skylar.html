@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">-->
+	<!-- Latest compiled and minified CSS -->
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+	<link rel="stylesheet" type="text/css" src="css/normalize.css">
+
+	<script src="https://use.fontawesome.com/a23b9b6acf.js"></script>
+	<script src="js/jquery-3.1.1.js" type="text/javascript"></script>	
+	<script src="js/app.js" type="text/javascript"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</head>
+<body>
+	<div class="container">
+		<div class="row main">
+			<div class="col-md-3">
+				<i class="fa fa-chevron-left" aria-hidden="true"></i> <span class="purple-text" style="font-size: 13px; font-weight: bold;"> <a href="">CONTINUE SHOPPING </a></span>
+			</div>
+
+			<div class="col-md-5">
+				<span class="" style="font-size: 16px; font-weight: bold;">MY SHOPPING BAG
+			</div>
+
+			<div class="col-md-4">
+				<button type="button" class="btn checkout-bg btn-lg btn-block">PROCEED TO CHECKOUT</button>
+			</div>
+		</div>
+
+		<div class="row hidden-xs hidden-sm shopping-main bold-font" id="shopping-header">
+			<div class="col-md-3">
+				PRODUCT
+			</div>
+			<div class="col-md-3">
+				
+			</div>
+
+			<div class="col-md-1">
+				COLOUR
+			</div>
+
+			<div class="col-md-1">
+				SIZE
+			</div>
+
+			<div class="col-md-2">
+				QUANTITY
+			</div>
+
+			<div class="col-md-2">
+				PRICE
+			</div>
+
+		</div>
+		<div class="row shopping-main">
+			<div class="col-md-3">
+				<img src="http://placehold.it/100x100" alt="" class="more-img img-responsive">
+			</div>
+			<div class="col-md-3">
+				<span class="visible-xs-block visible-sm-block bold-font"> PRODUCT </span>
+				<div class="bold-font">Linda Giroma - Ankle boot</div>  
+				
+				<div class="shopping-item-id">XYZ - 123 - ID</div>
+				
+				<div class="in-stock">In-Stock	</div>
+				<div class="row wish-list">
+					<div class="col-md-5 col-xs-3">REMOVE</div>
+					<div class="col-md-7 col-xs-9">ADD TO WISH LIST	</div>
+				</div>
+			</div>
+
+			<div class="col-md-1">
+				<span class="visible-xs-block visible-sm-block bold-font"> COLOUR </span>
+				Red
+			</div>
+
+			<div class="col-md-1">
+				<span class="visible-xs-block visible-sm-block bold-font"> SIZE</span>
+				38
+			</div>
+
+			<div class="col-md-2">
+				<span class="visible-xs-block visible-sm-block bold-font"> QUANTITY </span>
+					<form id='myform' method='POST' action='#'>
+					    <input type='button' value='-' class='qtyminus' field='quantity' />
+					    <input type='text' name='quantity' value='0' class='qty' />
+					    <input type='button' value='+' class='qtyplus' field='quantity' />
+					</form>
+			</div>
+
+			<div class="col-md-2">
+				<span class="visible-xs-block visible-sm-block bold-font"> PRICE </span>
+				N100,000
+			</div>
+
+		</div>
+
+		<hr />
+
+		<div class="row shopping-main">
+			<div class="col-md-3">
+				<img src="http://placehold.it/100x100" alt="" class="more-img img-responsive">
+			</div>
+			<div class="col-md-3">
+				<span class="visible-xs-block visible-sm-block bold-font"> PRODUCT </span>
+				<div class="bold-font">Linda Giroma - Ankle boot</div>  
+				
+				<div class="shopping-item-id">XYZ - 123 - ID</div>
+				
+				<div class="in-stock">In-Stock	</div>
+				<div class="row wish-list">
+					<div class="col-md-5 col-xs-3">REMOVE</div>
+					<div class="col-md-7 col-xs-9">ADD TO WISH LIST	</div>
+				</div>
+			</div>
+
+			<div class="col-md-1">
+				<span class="visible-xs-block visible-sm-block bold-font"> COLOUR </span>
+				Red
+			</div>
+
+			<div class="col-md-1">
+				<span class="visible-xs-block visible-sm-block bold-font"> SIZE</span>
+				38
+			</div>
+
+			<div class="col-md-2">
+				<span class="visible-xs-block visible-sm-block bold-font"> QUANTITY </span>
+					<form id='myform' method='POST' action='#'>
+					    <input type='button' value='-' class='qtyminus' field='quantity' />
+					    <input type='text' name='quantity' value='0' class='qty' />
+					    <input type='button' value='+' class='qtyplus' field='quantity' />
+					</form>
+			</div>
+
+			<div class="col-md-2">
+				<span class="visible-xs-block visible-sm-block bold-font"> PRICE </span>
+				N100,000
+			</div>
+
+		</div>
+
+		<hr />
+
+		<div class="row shopping-main">
+			<div class="col-md-3">
+				<img src="http://placehold.it/100x100" alt="" class="more-img img-responsive">
+			</div>
+			<div class="col-md-3">
+				<span class="visible-xs-block visible-sm-block bold-font"> PRODUCT </span>
+				<div class="bold-font">Linda Giroma - Ankle boot</div>  
+				
+				<div class="shopping-item-id">XYZ - 123 - ID</div>
+				
+				<div class="in-stock">In-Stock	</div>
+				<div class="row wish-list">
+					<div class="col-md-5 col-xs-3">REMOVE</div>
+					<div class="col-md-7 col-xs-9">ADD TO WISH LIST	</div>
+				</div>
+			</div>
+
+			<div class="col-md-1">
+				<span class="visible-xs-block visible-sm-block bold-font"> COLOUR </span>
+				Red
+			</div>
+
+			<div class="col-md-1">
+				<span class="visible-xs-block visible-sm-block bold-font"> SIZE</span>
+				38
+			</div>
+
+			<div class="col-md-2">
+				<span class="visible-xs-block visible-sm-block bold-font"> QUANTITY </span>
+					<form id='myform' method='POST' action='#'>
+					    <input type='button' value='-' class='qtyminus' field='quantity' />
+					    <input type='text' name='quantity' value='0' class='qty' />
+					    <input type='button' value='+' class='qtyplus' field='quantity' />
+					</form>
+			</div>
+
+			<div class="col-md-2">
+				<span class="visible-xs-block visible-sm-block bold-font"> PRICE </span>
+				N100,000
+			</div>
+
+		</div>
+
+		<hr />
+
+		<div class="row">
+			<div class="col-md-1">
+			</div>
+
+
+			<div class="col-md-7">
+				<p class="bold-font">DELIVERY DETAILS</p>
+				<p>
+				<form class="form-inline">
+				  <p>
+				  <div class="form-group">
+				    <label for="exampleInputName2">Full Name</label>
+				    <input type="text" class="form-control" id="exampleInputName2" placeholder="e.g. Saheed Balogun">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputName2">Email</label>
+				    <input type="text" class="form-control" id="exampleInputName2" placeholder="e.g info@example.com">
+				  </div>
+				  
+				  </p>
+				  <!--<button type="submit" class="btn btn-default">Send invitation</button> -->
+				  <p>
+				  <div class="form-group">
+				    <label for="exampleInputEmail2">Phone Number</label>
+				    <input type="email" class="form-control" id="exampleInputPhone2" placeholder="e.g 07012345678">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputEmail2">Address</label>
+				    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="e.g 33, Akoka road, Yaba">
+				  </div>
+				  </p>
+				</form>
+
+				</p>
+
+			</div>
+
+			<div class="col-md-4">
+				<div>
+				<p class="bold-font">ORDER SUMMARY</p>
+				<p>Subtotal: N300,000</p>
+				<p>Shipping: N5,000</p>
+
+				<p class="bold-font">Total: N305,000</p>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row shopping-main">
+			<div class="col-md-8">
+				<i class="fa fa-chevron-left" aria-hidden="true"></i> <span class="purple-text" style="font-size: 13px; font-weight: bold;"> <a href="">CONTINUE SHOPPING </a></span>
+			</div>
+
+			
+
+			<div class="col-md-4">
+				<button type="button" class="btn checkout-bg btn-lg btn-block">PROCEED TO CHECKOUT</button>
+			</div>
+		</div>
+
+
+ 	</div>
+
+
+
+</body>
+</html>
